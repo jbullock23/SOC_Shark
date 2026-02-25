@@ -205,4 +205,4 @@ df=df.drop_duplicates()
 output=os.path.splitext(PCAP_FILE)[0]+"_analysis.csv"
 df.to_csv(output,index=False)
 
-print(f"✅ CSV exported: {output}")
+print(f"CSV exported: {output}")
